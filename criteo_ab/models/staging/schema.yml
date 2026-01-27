@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: staging_criteo_base
+    description: "base table for Criteo uplift experiment (1 row per user)"
+    columns:
+      - name: user_id
+        description: "Unique identifier for each user (created upstream in python)"
+        tests:
+          - not_null
+          - unique
+
+      - name: treatment_flag
+        description: "Assignment indicator (0 = control, 1 = treatment)."
+        tests:
+          - not_null
+
+      - name: exposure_flag
+        description: "Mechanism indicator (0/1)."
+
+      - name: conversion_flag
+        description: "Primary outcome (0/1)"
+
+      - name: visit_flag
+        description: "Guardrail outcome (0/1)"

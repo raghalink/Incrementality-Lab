@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw
+    database: AB_DB
+    schema: RAW
+    tables:
+      - name: criteo_base
+        identifier: CRITEO_UPLIFT
+        columns:
+          - name: user_id
+            tests:
+              - not_null
+              - unique
+              
