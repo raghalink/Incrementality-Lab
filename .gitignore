@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+venv/
+
+# Data (generated locally)
+data_raw/
+data_clean/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Temp / OS files
+*.tmp
+*.log
+*.bak
+~$*
+
+# Environment variables
+.env
+
+# dbt (local & generated artifacts)
+rossmann_dbt/profiles.yml
+rossmann_dbt/.user.yml
+rossmann_dbt/target/
+rossmann_dbt/logs/
+rossmann_dbt/dbt_packages/
