@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: snowpark_outputs
+    database: AB_DB
+    schema: ANALYTICS
+    tables:
+      - name: MART_EXP_EXPERIMENT_RESULTS_FINAL
+        description: Overall experiment inference output (written by Snowpark Python).
+
+      - name: MART_EXP_SEGMENT_RESULTS_FINAL
+        description: Segment inference output (written by Snowpark Python).

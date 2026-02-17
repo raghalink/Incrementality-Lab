@@ -1,0 +1,16 @@
+version: 2
+
+exposures:
+  - name: experiment_readout_dashboard
+    label: Experiment Readout Dashboard
+    type: dashboard
+    description: Experiment decision and exploratory segment analysis dashboard.
+    depends_on:
+      - ref('mart_exp_kpis_by_variant')
+      - ref('mart_exp_validity_checks')
+      - ref('mart_exp_results_input')
+      - ref('mart_exp_segment')
+      - source('snowpark_outputs', 'MART_EXP_EXPERIMENT_RESULTS_FINAL')
+      - source('snowpark_outputs', 'MART_EXP_SEGMENT_RESULTS_FINAL')
+    owner:
+      name: Ragha
