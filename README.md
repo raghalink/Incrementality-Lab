@@ -162,7 +162,7 @@ dbt project: `criteo_ab`
 
 Generated via `dbt docs generate`:
 
-![dbt DAG](images\dbt-dag.png)
+![dbt DAG](images\dbt-dag.jpg)
 
 The DAG documents dependencies from source tables through marts and dashboard exposure.
 
