@@ -202,7 +202,7 @@ Two-page structure:
 
 ### 1 – Experiment Readout
 
-![Experiment Readout](images\page 1.jpg)
+![Experiment Readout](images/page_1.jpg)
 
 Includes:
 
@@ -223,7 +223,7 @@ Includes:
 
 ### 2 – Segment Analysis
 
-![Segment Analysis](images\page 2.jpg)
+![Segment Analysis](images/page_2.jpg)
 
 Includes:
 
