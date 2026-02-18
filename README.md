@@ -162,7 +162,7 @@ dbt project: `criteo_ab`
 
 Generated via `dbt docs generate`:
 
-[dbt DAG].(images/dbt-dag.png)
+[dbt DAG].(images\dbt-dag.png)
 
 The DAG documents dependencies from source tables through marts and dashboard exposure.
 
@@ -202,7 +202,7 @@ Two-page structure:
 
 ### 1 – Experiment Readout
 
-[Experiment Readout].(images/page 1.jpg)
+[Experiment Readout].(images\page 1.jpg)
 
 Includes:
 
@@ -223,7 +223,7 @@ Includes:
 
 ### 2 – Segment Analysis
 
-[Segment Analysis].(images/page 2.jpg)
+[Segment Analysis].(images\page 2.jpg)
 
 Includes:
 
