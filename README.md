@@ -162,7 +162,7 @@ dbt project: `criteo_ab`
 
 Generated via `dbt docs generate`:
 
-![dbt DAG](images\dbt-dag.jpg)
+![dbt DAG](images/dbt-dag.jpg)
 
 The DAG documents dependencies from source tables through marts and dashboard exposure.
 
@@ -262,7 +262,7 @@ The dashboard consumes Snowflake outputs directly. DAX is limited to presentatio
 # 📁 Repository Structure
 
 ```text
-criteo_ab/        # dbt project
+criteo_ab/        # dbt models (staging, intermediate, marts, exposures)
 snowpark/         # Statistical inference scripts
 snowflake/        # Warehouse setup & validation SQL
 dashboard/        # Power BI files
