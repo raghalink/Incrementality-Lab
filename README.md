@@ -282,6 +282,7 @@ notebooks/        # Data extraction
 | v0.3.1 | dbt docs exposure + DAG |
 | v0.4.0 | snowpark hypothesis testing and decisioning |
 | v0.4.1 | snowflake validation checks |
+| v1.0.0 | Incrementality Lab end-to-end experimentation workflow |
 
 * * *
 
