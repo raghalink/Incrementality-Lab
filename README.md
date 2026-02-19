@@ -128,9 +128,9 @@ The project separates transformation, inference, and visualization responsibilit
 
 ## 🗄️ Snowflake + dbt (Modeling Layer)
 
+warehouse: `abtest` 
 Database: `AB_DB`  
 Schemas: `RAW`, `ANALYTICS`  
-dbt project: `criteo_ab`
 
 ### Staging
 
